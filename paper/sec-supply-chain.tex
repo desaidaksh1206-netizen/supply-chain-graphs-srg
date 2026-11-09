@@ -70,7 +70,7 @@ The Bureau of Economic Analysis records, for each year, how much of each
 commodity every industry buys (the \emph{Use} table) and how much of each
 commodity every industry produces (the \emph{Make} table), in millions of
 dollars \cite{horowitz2009}. We use the tables at producer prices, before
-redefinitions, in the 2017 industry classification, as redistributed unchanged
+redefinitions, in the 2017 industry classification, as redistributed
 in the U.S. Environmental Protection Agency's open-source package
 \texttt{useeior} \cite{li2022useeior,bea2025io}. From them we form the
 standard industry-by-industry matrix \cite[Ch.~5]{miller2009}.
@@ -79,8 +79,10 @@ standard industry-by-industry matrix \cite[Ch.~5]{miller2009}.
 \label{def:direct}
 Let $U$ be the commodity-by-industry matrix of intermediate purchases, $V$ the
 industry-by-commodity matrix of production, $g=V\1$ the vector of industry
-outputs and $q=V^{\mathsf T}\1$ the vector of commodity outputs. With
-$B=U\,\mathrm{diag}(g)^{-1}$ and $D=V\,\mathrm{diag}(q)^{-1}$, the
+outputs and $q=V^{\mathsf T}\1$ the vector of commodity outputs. Every
+industry has $g_j>0$; let $B=U\,\mathrm{diag}(g)^{-1}$, and let $D$ have
+entries $d_{ic}=v_{ic}/q_c$, with $d_{ic}=0$ when $q_c=0$ (a few commodities,
+such as used goods, are produced by no industry). The
 \emph{direct-requirements matrix} is $A=DB$. Its entry $a_{ij}\ge 0$ is the
 number of dollars of industry $i$'s output used directly to produce one dollar
 of industry $j$'s output.
@@ -93,9 +95,10 @@ largest gross output in 2017, out of \NIndSource, numbered $1,\dots,N$ in
 order of their BEA industry code; this ordering is used for every matrix in
 this section. We work mainly with 2017, and repeat the analysis for 2012 at
 this level and for every year from \YearFirst{} to \YearLast{} at the coarser
-level of \NSummary{} industries. In each table a handful of entries are
-negative, recording federal sales of farm products from government
-inventories; we set them to zero, so that $A$ is entrywise non-negative. All
+level of \NSummary{} industries. In each Use table a handful of entries are
+negative (in the 2017 detail table, for example, entries for used and
+secondhand goods and for a few farm and food products); we set them to zero,
+so that $A$ is entrywise non-negative. All
 computations in this section are on these public tables and are labelled as
 such. The code that produces every number, table and figure is publicly
 available.\footnote{\url{https://github.com/desaidaksh1206-netizen/supply-chain-graphs-srg}}
@@ -180,8 +183,8 @@ passenger transit: its value added is negative in the tables, and its
 intermediate purchases are \MaxColSum{} times the value of its output.
 Proposition~\ref{prop:colsum} therefore does not apply. We compute $\rho(A)$ directly instead:
 $\rho(A)=\Rho$ for 2017 and \RhoTwelve{} for 2012, so
-Theorem~\ref{thm:neumann} holds. The partial sums of \eqref{eq:neumann} are
-within $\NeumannTwenty$ of $L$, entry by entry, after twenty terms.
+Theorem~\ref{thm:neumann} holds. The partial sum $I+A+\dots+A^{20}$ of
+\eqref{eq:neumann} is within $\NeumannTwenty$ of $L$, entry by entry.
 
 \begin{proposition}[Average supply-chain length]
 \label{prop:chain-length}
@@ -194,8 +197,11 @@ $\sum_{k\ge1}s_k=1$ and
 \end{proposition}
 
 \begin{proof}
-By \eqref{eq:neumann}, $L-I=\sum_{k\ge1}A^k$, which gives the first claim. The
-series $\sum_{k\ge1}kA^{k}$ converges because $\rho(A)<1$, and
+By \eqref{eq:neumann}, $L-I=\sum_{k\ge1}A^k$, which gives the first claim.
+By Gelfand's formula $\rho(A)=\lim_{k\to\infty}\lVert A^k\rVert^{1/k}$
+\cite[Sec.~5.6]{horn2013}, for any $r$ with $\rho(A)<r<1$ there is a constant
+$C$ with $\lVert A^k\rVert\le Cr^k$ for all $k$, so $\sum_{k\ge1}kA^{k}$
+converges absolutely. Its terms are non-negative, so it can be rearranged:
 $\sum_{k\ge1}kA^k=\sum_{k\ge1}\sum_{j\ge k}A^j=\sum_{k\ge1}A^k L=(L-I)L$,
 since $\sum_{j\ge k}A^j=A^kL$.
 \end{proof}
@@ -246,9 +252,12 @@ output. Its adjacency matrix is $A_\theta$.
 \end{definition}
 
 Lowering $\theta$ adds edges and never removes them. No threshold is
-privileged, so every quantity below is reported over \NThetas{} thresholds
-spaced evenly on a logarithmic scale from $10^{-4}$ (a hundredth of a cent per
-dollar) to $10^{-1}$ (ten cents per dollar).
+privileged, so the two measures defined in Section~\ref{subsec:delta}, $\delta$
+and $\bar\lambda-\bar\mu$, are reported over \NThetas{} thresholds spaced evenly
+on a logarithmic scale from $10^{-4}$ (a hundredth of a cent per dollar) to
+$10^{-1}$ (ten cents per dollar). The other quantities are reported at the
+threshold at which $G_\theta$ has the density of $H(2,20)$, defined in
+Section~\ref{subsec:benchmarks}.
 
 % ---------------------------------------------------------------------
 \subsection{Measuring distance from strong regularity}
@@ -355,17 +364,20 @@ The graph is not strongly regular, and only the degree term detects it.
 By the friendship theorem of Erd\H{o}s, R\'enyi and S\'os
 \cite{erdos1966friendship}, the finite graphs in which every two distinct
 vertices have exactly one common neighbour are precisely the graphs consisting
-of triangles sharing a common vertex, so the bow-tie is the smallest
-non-trivial case of this phenomenon.
+of triangles sharing a common vertex, so the bow-tie is the smallest graph
+with $\lambda=\mu=1$ that is not regular. Other values give smaller examples:
+the path $v_1v_2v_3$ has $\lambda=0$ and $\mu=1$, with degrees $1,2,1$.
 \end{example}
 
 % ---------------------------------------------------------------------
 \subsection{The benchmarks}
 \label{subsec:benchmarks}
 
-\paragraph{Random graphs.} The Erd\H{o}s--R\'enyi model $G(n,p)$ includes each
-of the $\binom n2$ possible edges independently with probability $p$
-\cite{gilbert1959,erdos1959}.
+\paragraph{Random graphs.} The random graph $G(n,p)$ of Gilbert
+\cite{gilbert1959}, usually called the Erd\H{o}s--R\'enyi model, includes each
+of the $\binom n2$ possible edges independently with probability $p$. Erd\H{o}s
+and R\'enyi \cite{erdos1959} studied the closely related model with a fixed
+number of edges.
 
 \begin{proposition}\label{prop:er}
 In $G(n,p)$, each degree $d(u)$ has distribution $\Bin(n-1,p)$. For distinct
@@ -431,9 +443,9 @@ permutation matrix $P$, so they describe the same graph.
 \includegraphics[width=0.9\linewidth]{figures/fig-adjacency.pdf}
 \caption{The adjacency matrix of $G_{\theta^\ast}$, $\theta^\ast=\ThetaStar$,
 with industries in order of BEA code (left) and grouped by BEA sector
-(right; lines mark sector boundaries). Black entries are $1$. The full rows
-and columns are the hub industries that supply almost every other
-industry.}
+(right; lines mark sector boundaries). Black entries are $1$. The dense rows
+and columns are the hub industries, which trade with most other
+industries.}
 \label{fig:adjacency}
 \end{figure}
 
@@ -441,9 +453,9 @@ industry.}
 edges and mean degree \MeanDegStar, but its degrees are very unequal: their
 standard deviation is \SdDegStar, against \ERSdDeg{} for a random graph of the
 same density, and the largest is \MaxDegStar. The highest degrees belong to
-industries that sell to almost every other industry: \HubOne{}
+industries that trade with most other industries: \HubOne{}
 (\HubOneDeg), \HubTwo{} (\HubTwoDeg), \HubThree{} (\HubThreeDeg) and \HubFour{}
-(\HubFourDeg). They appear as the full rows and columns in
+(\HubFourDeg). They appear as the dense rows and columns in
 Figure~\ref{fig:adjacency}. The graph has \ComponentsStar{} components; the
 \IsolatedStar{} isolated vertices are BEA's ``customs duties'' and ``private
 households'' industries, which have no intermediate inputs. Its clique number
@@ -578,7 +590,8 @@ central $95\%$ ranges of the two random benchmarks. The year 2020 is shaded.}
 \paragraph{Summary.} On these tables, supply chains are short: half of all
 requirements are direct purchases, and the average chain is about two steps
 long, with longer chains decaying at the rate $\rho(A)$. As a graph, the
-network is dominated by a few service industries that supply nearly everyone.
+network is dominated by a few service industries that supply most other
+industries.
 Even so, whether two industries trade directly predicts how many trading
 partners they share more strongly than the unequal degrees alone would
 produce. What separates the network from strong regularity is variation: the
@@ -598,7 +611,7 @@ than purely domestic supply chains. Thresholding discards both the size of
 each requirement and its direction; we report a sweep of thresholds for the
 first reason, and the directed matrix $A$ itself is used in
 Section~\ref{subsec:walks}. Restricting to the $400$ largest industries treats
-the two smallest as outside suppliers, which changes no industry's inputs by
-more than \DroppedShare\%. Finally, the benchmarks are deliberately extreme: a
+the two smallest as outside suppliers; no industry buys more than
+\DroppedShare{} cents of inputs from them per dollar of its output. Finally, the benchmarks are deliberately extreme: a
 network that sits between them is neither perfectly uniform nor random, which
 is informative but is not a model of how supply chains form.

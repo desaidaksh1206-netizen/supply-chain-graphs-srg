@@ -54,7 +54,7 @@ Full table: `results/linkages.csv`.
 
 ![Direct requirements heat map](../paper/figures/fig-requirements-heatmap.png)
 
-The dark horizontal bands are the rows of industries that sell to almost every other industry: finance and real estate (upper part) and professional services, transportation and wholesale trade (bottom). The dark blocks near the diagonal are supply chains within manufacturing.
+The dark horizontal bands are the rows of industries that sell to most other industries: finance and real estate (upper part) and professional services, transportation and wholesale trade (bottom). The dark blocks near the diagonal are supply chains within manufacturing.
 
 ## 2. The graph at θ\* = 0.0047
 
@@ -62,7 +62,7 @@ The dark horizontal bands are the rows of industries that sell to almost every o
 
 ![Adjacency matrix](../paper/figures/fig-adjacency.png)
 
-The full rows and columns are hub industries.
+The dense rows and columns are hub industries.
 
 | | *H*(2,20) | Erdős–Rényi, same density | Industry network |
 |---|---|---|---|
@@ -94,7 +94,7 @@ The full rows and columns are hub industries.
 | Machinery, equipment, and supplies (wholesale) | 156 |
 | Legal services | 150 |
 
-All ten are services (head offices, freight, property, power, wholesale distribution, banking, staffing and law) that nearly every industry buys from. 28% of all edges touch one of these ten. The two isolated vertices are "Customs duties" and "Private households", which buy no intermediate inputs.
+All ten are services (head offices, freight, property, power, wholesale distribution, banking, staffing and law) that many industries buy from. 28% of all edges touch one of these ten. The two isolated vertices are "Customs duties" and "Private households", which buy no intermediate inputs.
 
 **Sectors.** 37% of edges lie inside one of the 15 BEA sectors, against 34% of all pairs, so sectors barely concentrate edges. Within the finer 71 summary industries, 8.3% of edges lie inside one, against 2.8% of pairs. Supply links cut across sector lines much more than within them.
 

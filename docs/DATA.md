@@ -28,6 +28,8 @@ From Use *U* (commodity × industry, intermediate purchases only) and Make *V* (
 
   *A* = *D B*, with *B* = *U* diag(*g*)⁻¹ and *D* = *V* diag(*q*)⁻¹.
 
+Two commodities have zero total output, so diag(*q*)⁻¹ does not exist as written: used and secondhand goods (S00402) and noncomparable imports (S00300) are produced by no industry. Their columns of *D* are set to zero.
+
 This is the industry-technology construction of Miller & Blair (2009, Ch. 5) and of BEA's handbook (Horowitz & Planting 2009). In the detail tables, two commodities are produced by no industry: *noncomparable imports* and *used and secondhand goods*. For these *q* = 0, so their columns of *D* are set to zero, and purchases of them count as inputs from outside the network, like imports and value added. (At the summary level every commodity has positive output.) Total rows and columns ("Total Intermediate", "Total Industry Output", and so on) are excluded.
 
 BEA's published industry-by-industry tables also make a small adjustment for scrap, which we omit.
@@ -41,7 +43,7 @@ The detail tables have 402 industries. We keep the **400 with the largest 2017 g
 | 333316 | Photographic and photocopying equipment manufacturing | $1.6 bn |
 | 335110 | Electric lamp bulb and part manufacturing | $1.5 bn |
 
-Restricting *A* to the 400 treats these two as outside suppliers. No remaining industry gets more than **3.6%** of its inputs from them (`build_summary.json`, `dropped_input_share_max`).
+Restricting *A* to the 400 treats these two as outside suppliers. No remaining industry buys more than **3.6 cents** of inputs from them per dollar of its own output (`build_summary.json`, `dropped_input_share_max`).
 
 The 400 are numbered in **alphabetical order of BEA code**. Each has a sector (15 BEA sectors) and a summary code (71 summary industries) from the crosswalk. Manufacturing accounts for 230 of the 400, because the detail level splits manufacturing most finely.
 
@@ -49,7 +51,7 @@ Two of the 400 are accounting constructs rather than producers: **"Customs dutie
 
 ## 4. Cleaning: negative entries set to zero
 
-A handful of Use entries are negative. In the detail tables these are federal general government (nondefense) purchases of farm commodities, such as oilseeds, grains and dairy. They record sales of farm products *from* government inventories (Commodity Credit Corporation), which BEA enters as negative purchases.
+A handful of Use entries are negative. In every table checked, most are in the row for used and secondhand goods, a commodity that no industry produces, so they do not enter *A*. In the 2017 detail table, four of the seven (−$405 million) are used goods, and the other three (−$292 million) are federal nondefense purchases of oilseeds, grain and fluid milk. In 2012, six of the eight are used goods. In the summary tables checked (2012, 2017, 2020 and 2023), four to six of each year's five to seven are used goods, and one is a farm or food product.
 
 | Table | Negative entries | Total |
 |---|---|---|

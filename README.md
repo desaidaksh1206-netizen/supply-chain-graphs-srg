@@ -14,7 +14,7 @@ This repository holds the supply-chain application section of an undergraduate e
 | `results/` | Every computed table and number (`summary.json`, `sweep_2017.csv`, …) |
 | `docs/` | The mathematics, the data, the results and how to use the paper files, each in full |
 
-> **Data.** Only public data is used: the Make and Use tables of the US Bureau of Economic Analysis (BEA), as redistributed unchanged by the U.S. EPA's open-source `useeior` package. Every file is pinned to one git commit and checked by SHA-256. See [`docs/DATA.md`](docs/DATA.md).
+> **Data.** Only public data is used: the Make and Use tables of the US Bureau of Economic Analysis (BEA), as redistributed by the U.S. EPA's open-source `useeior` package. Every file is pinned to one git commit and checked by SHA-256. See [`docs/DATA.md`](docs/DATA.md).
 
 ---
 
@@ -30,7 +30,7 @@ Computations on the 2017 BEA tables at the 400-industry level, checked against 2
 
 ![Share of requirements by supply-chain length](paper/figures/fig-walks.png)
 
-**2. A few service industries supply almost everyone.** At θ\* = 0.0047 (0.47 cents per dollar) the graph has mean degree 38, the degree of the strongly regular Hamming graph *H*(2,20) on 400 vertices. But its degrees are very unequal: standard deviation 37.6, maximum 323. The hubs are *management of companies* (323 links), *truck transportation* (289), *other real estate* (279) and *electric power* (239).
+**2. A few service industries supply most other industries.** At θ\* = 0.0047 (0.47 cents per dollar) the graph has mean degree 38, the degree of the strongly regular Hamming graph *H*(2,20) on 400 vertices. But its degrees are very unequal: standard deviation 37.6, maximum 323. The hubs are *management of companies* (323 links), *truck transportation* (289), *other real estate* (279) and *electric power* (239).
 
 **3. Trading directly predicts shared trading partners, beyond what the hubs explain.**
 

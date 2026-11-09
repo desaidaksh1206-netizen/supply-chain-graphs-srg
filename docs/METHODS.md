@@ -20,7 +20,7 @@ The BEA publishes two tables per year, in millions of dollars:
 With industry outputs *g* = *V*1 and commodity outputs *q* = *V*ᵀ1:
 
 - *B* = *U* diag(*g*)⁻¹: commodity inputs per dollar of industry output;
-- *D* = *V* diag(*q*)⁻¹: market shares, the fraction of commodity *c* made by industry *i*;
+- *D* = *V* diag(*q*)⁻¹: market shares, the fraction of commodity *c* made by industry *i* (a zero column for a commodity no industry produces, where *q* = 0);
 - **A = DB**: industry × industry direct requirements.
 
 This is the standard "industry-technology" construction (Miller & Blair 2009, Ch. 5; Horowitz & Planting 2009). Reading *DB* entry by entry: industry *j* buys commodity *c* (*B*), and the dollars spent on *c* are attributed to the industries that make *c* in proportion to their market shares (*D*). So *a*ᵢⱼ is the dollars of industry *i*'s output embodied in one dollar of *j*'s output, as a direct input.

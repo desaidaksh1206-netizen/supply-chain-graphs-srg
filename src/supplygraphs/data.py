@@ -109,9 +109,10 @@ def direct_requirements(use: pd.DataFrame, make: pd.DataFrame,
                         industries: list[str], commodities: list[str]) -> tuple[pd.DataFrame, pd.Series]:
     """A = D B (industry-by-industry) and industry output g, from BEA tables."""
     U = use.loc[commodities, industries].astype(float).fillna(0.0).to_numpy()
-    # A handful of entries are negative: federal government sales of farm
-    # products from inventory (Commodity Credit Corporation), which BEA records
-    # as negative purchases. They are set to zero so that A is non-negative.
+    # A handful of entries are negative, mostly in the row for used and
+    # secondhand goods (which no industry produces, so they do not enter A),
+    # plus a few federal purchases of farm and food products. They are set to
+    # zero so that A is non-negative.
     NEGATIVE_USES.append((int((U < 0).sum()), float(-U[U < 0].sum())))
     U = np.clip(U, 0.0, None)
     V = make.loc[industries, commodities].astype(float).fillna(0.0).to_numpy()
