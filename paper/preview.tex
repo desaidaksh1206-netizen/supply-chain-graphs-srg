@@ -1,0 +1,48 @@
+% preview.tex -- compiles sec-supply-chain.tex on its own, for checking.
+% In the real article, sec-supply-chain.tex is \input into main.tex instead, and the
+% stub section below is replaced by the article's own sections.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,graphicx,booktabs}
+\usepackage{url}
+% Table captions sit above the table; the article class leaves no space
+% below a caption, so add some.
+\setlength{\belowcaptionskip}{6pt}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}{Corollary}[section]
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\input{generated/numbers}
+
+\title{US supply-chain networks, measured against strong regularity\\
+\large Preview of the application section}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Stand-ins for the main article}
+\label{sec:srg}\label{sec:johnson-hamming}\label{sec:spectra}
+{\sloppy\emph{This section exists only so that the preview compiles. In the article,
+the labels \texttt{sec:srg}, \texttt{sec:johnson-hamming},
+\texttt{sec:spectra} and \texttt{thm:walks} point to the article's own
+sections on strongly regular graphs, Johnson and Hamming graphs, spectra, and
+the theorem that $(A^k)_{ij}$ counts walks of length $k$.}\par}
+
+\begin{theorem}\label{thm:walks}
+For a graph with adjacency matrix $A$, the entry $(A^k)_{ij}$ is the number of
+walks of length $k$ from $i$ to $j$.
+\end{theorem}
+
+\input{sec-supply-chain}
+
+\bibliographystyle{plain}
+\bibliography{refs-supply-chain}
+\end{document}

@@ -1,0 +1,108 @@
+{
+  "negative_uses_detail_2012": {
+    "count": 8,
+    "total_musd": 1161.0
+  },
+  "negative_uses_detail_2017": {
+    "count": 7,
+    "total_musd": 697.0
+  },
+  "detail_2012": {
+    "n_industries_source": 402,
+    "max_column_sum": 1.7996200040713852,
+    "mean_column_sum": 0.5288634346341996,
+    "dropped_input_share_max": 0.045634631989068,
+    "total_output_busd": 29232.115
+  },
+  "detail_2017": {
+    "n_industries_source": 402,
+    "max_column_sum": 1.594813327032136,
+    "mean_column_sum": 0.5145967011762652,
+    "dropped_input_share_max": 0.036319742901572305,
+    "total_output_busd": 34468.047
+  },
+  "summary_2012": {
+    "n_industries": 71,
+    "max_column_sum": 0.9144713838596613,
+    "negative_uses_count": 7
+  },
+  "summary_2013": {
+    "n_industries": 71,
+    "max_column_sum": 0.9389123862730595,
+    "negative_uses_count": 7
+  },
+  "summary_2014": {
+    "n_industries": 71,
+    "max_column_sum": 0.9203450754852622,
+    "negative_uses_count": 7
+  },
+  "summary_2015": {
+    "n_industries": 71,
+    "max_column_sum": 0.9494531051273665,
+    "negative_uses_count": 7
+  },
+  "summary_2016": {
+    "n_industries": 71,
+    "max_column_sum": 0.9530038330655669,
+    "negative_uses_count": 7
+  },
+  "summary_2017": {
+    "n_industries": 71,
+    "max_column_sum": 0.9565711961667759,
+    "negative_uses_count": 5
+  },
+  "summary_2018": {
+    "n_industries": 71,
+    "max_column_sum": 0.9935042299596444,
+    "negative_uses_count": 5
+  },
+  "summary_2019": {
+    "n_industries": 71,
+    "max_column_sum": 0.9880925726149523,
+    "negative_uses_count": 6
+  },
+  "summary_2020": {
+    "n_industries": 71,
+    "max_column_sum": 0.9929595107630836,
+    "negative_uses_count": 6
+  },
+  "summary_2021": {
+    "n_industries": 71,
+    "max_column_sum": 0.8811016953843258,
+    "negative_uses_count": 6
+  },
+  "summary_2022": {
+    "n_industries": 71,
+    "max_column_sum": 0.8960439652640854,
+    "negative_uses_count": 6
+  },
+  "summary_2023": {
+    "n_industries": 71,
+    "max_column_sum": 0.9086782596875518,
+    "negative_uses_count": 6
+  },
+  "n_industries": 400,
+  "dropped": [
+    "333316",
+    "335110"
+  ],
+  "detail_years": [
+    2012,
+    2017
+  ],
+  "summary_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "useeior_commit": "1565a70b7da2e50ff7ab5fc344fc0ba95f307a8a"
+}

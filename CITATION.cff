@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+title: "How far is the US supply-chain network from strong regularity? Input-output networks, weighted walks and strongly regular graphs"
+authors:
+  - given-names: Daksh
+    family-names: Desai
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+repository-code: "https://github.com/desaidaksh1206-netizen/supply-chain-graphs-srg"
+keywords:
+  - strongly regular graphs
+  - adjacency matrix
+  - supply chains
+  - input-output analysis
+  - Leontief inverse

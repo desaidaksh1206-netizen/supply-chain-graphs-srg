@@ -1,0 +1,159 @@
+% refs-supply-chain.bib -- references used by sec-supply-chain.tex
+%
+% Entries whose `note` says VERIFY have not been checked against the
+% publication of record. Check each in the library, then delete the note.
+% If an entry is already in the main refs.bib (e.g. brouwer2012 and
+% mentorthesis), delete it here to avoid a duplicate key.
+
+% ------------------------------------------------------------ data
+% Open question (not printed): which citation form does the journal prefer for a government dataset?
+@misc{bea2025io,
+  author       = {{U.S. Bureau of Economic Analysis}},
+  title        = {Input-Output Accounts: Make and Use Tables, Before Redefinitions, Producer Prices, 2017 Industry Classification},
+  year         = {2024},
+  howpublished = {Detail tables for 2012 and 2017; summary tables for 2012--2023. Retrieved from the useeior package (v1.7.2, 2025), github.com/USEPA/useeior, commit 1565a70}
+}
+
+@article{li2022useeior,
+  author  = {Li, Mo and Ingwersen, Wesley W. and Young, Ben and Vendries, Jorge and Birney, Catherine},
+  title   = {useeior: An Open-Source {R} Package for Building and Using {US} Environmentally-Extended Input--Output Models},
+  journal = {Applied Sciences},
+  volume  = {12},
+  number  = {9},
+  pages   = {4469},
+  year    = {2022}
+}
+
+% ------------------------------------------------------------ input-output analysis
+@book{miller2009,
+  author    = {Miller, Ronald E. and Blair, Peter D.},
+  title     = {Input--Output Analysis: Foundations and Extensions},
+  edition   = {Second},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2009}
+}
+
+% The advisor accepted this government methodology handbook as a source (November 2026). Miller and Blair (miller2009) covers the same construction.
+@techreport{horowitz2009,
+  author      = {Horowitz, Karen J. and Planting, Mark A.},
+  title       = {Concepts and Methods of the {U.S.} Input-Output Accounts},
+  institution = {U.S. Bureau of Economic Analysis},
+  year        = {2009},
+  note        = {First published September 2006; updated April 2009}
+}
+
+@article{leontief1936,
+  author  = {Leontief, Wassily W.},
+  title   = {Quantitative Input and Output Relations in the Economic System of the {United States}},
+  journal = {The Review of Economic Statistics},
+  volume  = {18},
+  number  = {3},
+  pages   = {105--125},
+  year    = {1936},
+  doi     = {10.2307/1927837}
+}
+
+@article{dietzenbacher2005,
+  author  = {Dietzenbacher, Erik and Romero Luna, Isidoro and Bosma, Niels S.},
+  title   = {Using Average Propagation Lengths to Identify Production Chains in the {Andalusian} Economy},
+  journal = {Estudios de Econom{\'\i}a Aplicada},
+  volume  = {23},
+  number  = {2},
+  pages   = {405--422},
+  year    = {2005}
+}
+
+@article{acemoglu2012,
+  author  = {Acemoglu, Daron and Carvalho, Vasco M. and Ozdaglar, Asuman and Tahbaz-Salehi, Alireza},
+  title   = {The Network Origins of Aggregate Fluctuations},
+  journal = {Econometrica},
+  volume  = {80},
+  number  = {5},
+  pages   = {1977--2016},
+  year    = {2012}
+}
+
+@article{carvalho2014,
+  author  = {Carvalho, Vasco M.},
+  title   = {From Micro to Macro via Production Networks},
+  journal = {Journal of Economic Perspectives},
+  volume  = {28},
+  number  = {4},
+  pages   = {23--48},
+  year    = {2014}
+}
+
+% ------------------------------------------------------------ matrices
+% Year: Google Books gives the hardback as 2013 and the paperback as 22 Oct 2012; check the printed copyright page of the second edition.
+@book{horn2013,
+  author    = {Horn, Roger A. and Johnson, Charles R.},
+  title     = {Matrix Analysis},
+  edition   = {Second},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2013}
+}
+
+@book{brouwer2012,
+  author    = {Brouwer, Andries E. and Haemers, Willem H.},
+  title     = {Spectra of Graphs},
+  publisher = {Springer},
+  address   = {New York},
+  series    = {Universitext},
+  year      = {2012}
+}
+
+% Neha Joshi's PhD thesis: the same entry as mentorthesis in the article's
+% refs.bib, kept here so that preview.tex compiles on its own.
+@phdthesis{mentorthesis,
+  author  = {Joshi, Neha},
+  title   = {Fusions of Association Schemes},
+  school  = {University of Regina},
+  address = {Regina, Saskatchewan},
+  month   = jan,
+  year    = {2023}
+}
+
+% ------------------------------------------------------------ random graphs
+@article{gilbert1959,
+  author  = {Gilbert, E. N.},
+  title   = {Random Graphs},
+  journal = {The Annals of Mathematical Statistics},
+  volume  = {30},
+  number  = {4},
+  pages   = {1141--1144},
+  year    = {1959},
+  doi     = {10.1214/aoms/1177706098}
+}
+
+@article{erdos1959,
+  author  = {Erd{\H{o}}s, P. and R{\'e}nyi, A.},
+  title   = {On random graphs {I}},
+  journal = {Publicationes Mathematicae Debrecen},
+  volume  = {6},
+  number  = {3--4},
+  pages   = {290--297},
+  year    = {1959},
+  doi     = {10.5486/PMD.1959.6.3-4.12}
+}
+
+@article{maslov2002,
+  author  = {Maslov, Sergei and Sneppen, Kim},
+  title   = {Specificity and stability in topology of protein networks},
+  journal = {Science},
+  volume  = {296},
+  number  = {5569},
+  pages   = {910--913},
+  year    = {2002},
+  doi     = {10.1126/science.1065103}
+}
+
+@article{erdos1966friendship,
+  author  = {Erd{\H{o}}s, P. and R{\'e}nyi, A. and S{\'o}s, V. T.},
+  title   = {On a problem of graph theory},
+  journal = {Studia Scientiarum Mathematicarum Hungarica},
+  volume  = {1},
+  pages   = {215--235},
+  year    = {1966}
+}

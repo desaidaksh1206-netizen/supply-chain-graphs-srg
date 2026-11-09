@@ -1,0 +1,401 @@
+index,code,name,sector_code,sector,summary_code,gross_output_2017_musd,gross_output_2012_musd
+1,1111A0,Oilseed farming,11,"Agriculture, forestry, fishing, and hunting",111CA,38217.0,42373.0
+2,1111B0,Grain farming,11,"Agriculture, forestry, fishing, and hunting",111CA,57881.0,84054.0
+3,111200,Vegetable and melon farming,11,"Agriculture, forestry, fishing, and hunting",111CA,18806.0,14376.0
+4,111300,Fruit and tree nut farming,11,"Agriculture, forestry, fishing, and hunting",111CA,29958.0,26489.0
+5,111400,"Greenhouse, nursery, and floriculture production",11,"Agriculture, forestry, fishing, and hunting",111CA,19868.0,22026.0
+6,111900,Other crop farming,11,"Agriculture, forestry, fishing, and hunting",111CA,26575.0,27642.0
+7,112120,Dairy cattle and milk production,11,"Agriculture, forestry, fishing, and hunting",111CA,38538.0,38013.0
+8,1121A0,"Beef cattle ranching and farming, including feedlots and dual-purpose ranching and farming",11,"Agriculture, forestry, fishing, and hunting",111CA,88052.0,78171.0
+9,112300,Poultry and egg production,11,"Agriculture, forestry, fishing, and hunting",111CA,44569.0,38743.0
+10,112A00,"Animal production, except cattle and poultry and eggs",11,"Agriculture, forestry, fishing, and hunting",111CA,33065.0,32281.0
+11,113000,Forestry and logging,11,"Agriculture, forestry, fishing, and hunting",113FF,18803.0,15750.0
+12,114000,"Fishing, hunting and trapping",11,"Agriculture, forestry, fishing, and hunting",113FF,8929.0,8379.0
+13,115000,Support activities for agriculture and forestry,11,"Agriculture, forestry, fishing, and hunting",113FF,25650.0,22763.0
+14,211000,Oil and gas extraction,21,Mining,211,253995.0,362617.0
+15,212100,Coal mining,21,Mining,212,36917.0,54448.0
+16,212230,"Copper, nickel, lead, and zinc mining",21,Mining,212,13613.0,14020.0
+17,2122A0,"Iron, gold, silver, and other metal ore mining",21,Mining,212,15940.0,22388.0
+18,212310,Stone mining and quarrying,21,Mining,212,16750.0,16195.0
+19,2123A0,Other nonmetallic mineral mining and quarrying,21,Mining,212,18628.0,17563.0
+20,213111,Drilling oil and gas wells,21,Mining,213,27010.0,32695.0
+21,21311A,Other support activities for mining,21,Mining,213,79918.0,93495.0
+22,221100,"Electric power generation, transmission, and distribution",22,Utilities,22,389427.0,367026.0
+23,221200,Natural gas distribution,22,Utilities,22,69552.0,81661.0
+24,221300,"Water, sewage and other systems",22,Utilities,22,15138.0,12893.0
+25,230301,Nonresidential maintenance and repair,23,Construction,23,201129.0,175278.0
+26,230302,Residential maintenance and repair,23,Construction,23,80563.0,68239.0
+27,233210,Health care structures,23,Construction,23,45025.0,42986.0
+28,233230,Manufacturing structures,23,Construction,23,63523.0,36402.0
+29,233240,Power and communication structures,23,Construction,23,102085.0,92767.0
+30,233262,Educational and vocational structures,23,Construction,23,94786.0,66823.0
+31,2332A0,Office and commercial structures,23,Construction,23,160242.0,87148.0
+32,2332C0,Transportation structures and highways and streets,23,Construction,23,135588.0,111395.0
+33,2332D0,Other nonresidential structures,23,Construction,23,114163.0,80814.0
+34,233411,Single-family residential structures,23,Construction,23,254640.0,122034.0
+35,233412,Multifamily residential structures,23,Construction,23,75093.0,25877.0
+36,2334A0,Other residential structures,23,Construction,23,251129.0,165714.0
+37,311111,Dog and cat food manufacturing,31G,Manufacturing,311FT,23288.0,20086.0
+38,311119,Other animal food manufacturing,31G,Manufacturing,311FT,31693.0,35393.0
+39,311210,Flour milling and malt manufacturing,31G,Manufacturing,311FT,16419.0,20218.0
+40,311221,Wet corn milling,31G,Manufacturing,311FT,9748.0,12880.0
+41,311224,Soybean and other oilseed processing,31G,Manufacturing,311FT,33185.0,40407.0
+42,311225,Fats and oils refining and blending,31G,Manufacturing,311FT,9494.0,16524.0
+43,311230,Breakfast cereal manufacturing,31G,Manufacturing,311FT,10143.0,10908.0
+44,311300,Sugar and confectionery product manufacturing,31G,Manufacturing,311FT,37055.0,32988.0
+45,311410,Frozen food manufacturing,31G,Manufacturing,311FT,32477.0,30338.0
+46,311420,"Fruit and vegetable canning, pickling, and drying",31G,Manufacturing,311FT,33528.0,33142.0
+47,311513,Cheese manufacturing,31G,Manufacturing,311FT,47880.0,40858.0
+48,311514,"Dry, condensed, and evaporated dairy product manufacturing",31G,Manufacturing,311FT,23878.0,25765.0
+49,31151A,Fluid milk and butter manufacturing,31G,Manufacturing,311FT,43861.0,37781.0
+50,311520,Ice cream and frozen dessert manufacturing,31G,Manufacturing,311FT,7791.0,6825.0
+51,311615,Poultry processing,31G,Manufacturing,311FT,67566.0,57901.0
+52,31161A,"Animal (except poultry) slaughtering, rendering, and processing",31G,Manufacturing,311FT,148694.0,140713.0
+53,311700,Seafood product preparation and packaging,31G,Manufacturing,311FT,13836.0,10713.0
+54,311810,Bread and bakery product manufacturing,31G,Manufacturing,311FT,43201.0,36996.0
+55,3118A0,"Cookie, cracker, pasta, and tortilla manufacturing",31G,Manufacturing,311FT,26570.0,27168.0
+56,311910,Snack food manufacturing,31G,Manufacturing,311FT,38989.0,30855.0
+57,311920,Coffee and tea manufacturing,31G,Manufacturing,311FT,13797.0,13041.0
+58,311930,Flavoring syrup and concentrate manufacturing,31G,Manufacturing,311FT,11796.0,8782.0
+59,311940,Seasoning and dressing manufacturing,31G,Manufacturing,311FT,21767.0,18937.0
+60,311990,All other food manufacturing,31G,Manufacturing,311FT,29832.0,21977.0
+61,312110,Soft drink and ice manufacturing,31G,Manufacturing,311FT,45036.0,45868.0
+62,312120,Breweries,31G,Manufacturing,311FT,32470.0,31264.0
+63,312130,Wineries,31G,Manufacturing,311FT,22075.0,16553.0
+64,312140,Distilleries,31G,Manufacturing,311FT,16288.0,14520.0
+65,312200,Tobacco manufacturing,31G,Manufacturing,311FT,60770.0,56475.0
+66,313100,"Fiber, yarn, and thread mills",31G,Manufacturing,313TT,7086.0,7725.0
+67,313200,Fabric mills,31G,Manufacturing,313TT,13274.0,14811.0
+68,313300,Textile and fabric finishing and fabric coating mills,31G,Manufacturing,313TT,7036.0,7418.0
+69,314110,Carpet and rug mills,31G,Manufacturing,313TT,9757.0,9074.0
+70,314120,Curtain and linen mills,31G,Manufacturing,313TT,3506.0,3637.0
+71,314900,Other textile product mills,31G,Manufacturing,313TT,9039.0,9132.0
+72,315000,Apparel manufacturing,31G,Manufacturing,315AL,10879.0,12238.0
+73,316000,Leather and allied product manufacturing,31G,Manufacturing,315AL,4837.0,7005.0
+74,321100,Sawmills and wood preservation,31G,Manufacturing,321,33015.0,23399.0
+75,321200,"Veneer, plywood, and engineered wood product manufacturing",31G,Manufacturing,321,24572.0,17138.0
+76,321910,Millwork,31G,Manufacturing,321,25651.0,20570.0
+77,3219A0,All other wood product manufacturing,31G,Manufacturing,321,25216.0,19289.0
+78,322110,Pulp mills,31G,Manufacturing,322,6826.0,6011.0
+79,322120,Paper mills,31G,Manufacturing,322,37740.0,47054.0
+80,322130,Paperboard mills,31G,Manufacturing,322,32837.0,28377.0
+81,322210,Paperboard container manufacturing,31G,Manufacturing,322,64741.0,52790.0
+82,322220,Paper bag and coated and treated paper manufacturing,31G,Manufacturing,322,21465.0,21060.0
+83,322230,Stationery product manufacturing,31G,Manufacturing,322,5692.0,6774.0
+84,322291,Sanitary paper product manufacturing,31G,Manufacturing,322,11391.0,12113.0
+85,322299,All other converted paper product manufacturing,31G,Manufacturing,322,4607.0,5058.0
+86,323110,Printing,31G,Manufacturing,323,80732.0,79191.0
+87,323120,Support activities for printing,31G,Manufacturing,323,3195.0,3892.0
+88,324110,Petroleum refineries,31G,Manufacturing,324,494678.0,784405.0
+89,324121,Asphalt paving mixture and block manufacturing,31G,Manufacturing,324,13228.0,13243.0
+90,324122,Asphalt shingle and coating materials manufacturing,31G,Manufacturing,324,10882.0,10572.0
+91,324190,Other petroleum and coal products manufacturing,31G,Manufacturing,324,20005.0,24958.0
+92,325110,Petrochemical manufacturing,31G,Manufacturing,325,54212.0,81125.0
+93,325120,Industrial gas manufacturing,31G,Manufacturing,325,9599.0,6960.0
+94,325130,Synthetic dye and pigment manufacturing,31G,Manufacturing,325,6981.0,9232.0
+95,325180,Other basic inorganic chemical manufacturing,31G,Manufacturing,325,31504.0,34733.0
+96,325190,Other basic organic chemical manufacturing,31G,Manufacturing,325,116364.0,140444.0
+97,325211,Plastics material and resin manufacturing,31G,Manufacturing,325,88716.0,91304.0
+98,3252A0,Synthetic rubber and artificial and synthetic fibers and filaments manufacturing,31G,Manufacturing,325,15155.0,18138.0
+99,325310,Fertilizer manufacturing,31G,Manufacturing,325,17160.0,26231.0
+100,325320,Pesticide and other agricultural chemical manufacturing,31G,Manufacturing,325,14906.0,15048.0
+101,325411,Medicinal and botanical manufacturing,31G,Manufacturing,325,15008.0,14773.0
+102,325412,Pharmaceutical preparation manufacturing,31G,Manufacturing,325,186429.0,149498.0
+103,325413,In-vitro diagnostic substance manufacturing,31G,Manufacturing,325,17623.0,14719.0
+104,325414,Biological product (except diagnostic) manufacturing,31G,Manufacturing,325,35968.0,28618.0
+105,325510,Paint and coating manufacturing,31G,Manufacturing,325,27867.0,24012.0
+106,325520,Adhesive manufacturing,31G,Manufacturing,325,15044.0,12060.0
+107,325610,Soap and cleaning compound manufacturing,31G,Manufacturing,325,39634.0,45735.0
+108,325620,Toilet preparation manufacturing,31G,Manufacturing,325,43257.0,35752.0
+109,325910,Printing ink manufacturing,31G,Manufacturing,325,4284.0,4896.0
+110,3259A0,All other chemical product and preparation manufacturing,31G,Manufacturing,325,42941.0,40740.0
+111,326110,Plastics packaging materials and unlaminated film and sheet manufacturing,31G,Manufacturing,326,39233.0,39394.0
+112,326120,"Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",31G,Manufacturing,326,18810.0,15384.0
+113,326130,"Laminated plastics plate, sheet (except packaging), and shape manufacturing",31G,Manufacturing,326,4464.0,3544.0
+114,326140,Polystyrene foam product manufacturing,31G,Manufacturing,326,9864.0,8301.0
+115,326150,Urethane and other foam product (except polystyrene) manufacturing,31G,Manufacturing,326,10934.0,9433.0
+116,326160,Plastics bottle manufacturing,31G,Manufacturing,326,11132.0,12336.0
+117,326190,Other plastics product manufacturing,31G,Manufacturing,326,99639.0,83600.0
+118,326210,Tire manufacturing,31G,Manufacturing,326,20045.0,21095.0
+119,326220,Rubber and plastics hoses and belting manufacturing,31G,Manufacturing,326,5363.0,5288.0
+120,326290,Other rubber product manufacturing,31G,Manufacturing,326,18276.0,18113.0
+121,327100,Clay product and refractory manufacturing,31G,Manufacturing,327,8149.0,7240.0
+122,327200,Glass and glass product manufacturing,31G,Manufacturing,327,26373.0,23583.0
+123,327310,Cement manufacturing,31G,Manufacturing,327,8361.0,5904.0
+124,327320,Ready-mix concrete manufacturing,31G,Manufacturing,327,31697.0,20753.0
+125,327330,"Concrete pipe, brick, and block manufacturing",31G,Manufacturing,327,6452.0,5668.0
+126,327390,Other concrete product manufacturing,31G,Manufacturing,327,12545.0,8649.0
+127,327400,Lime and gypsum product manufacturing,31G,Manufacturing,327,8115.0,5970.0
+128,327910,Abrasive product manufacturing,31G,Manufacturing,327,4847.0,5299.0
+129,327991,Cut stone and stone product manufacturing,31G,Manufacturing,327,5027.0,3641.0
+130,327992,Ground or treated mineral and earth manufacturing,31G,Manufacturing,327,4364.0,3564.0
+131,327993,Mineral wool manufacturing,31G,Manufacturing,327,6297.0,4915.0
+132,327999,Miscellaneous nonmetallic mineral products,31G,Manufacturing,327,5087.0,4111.0
+133,331110,Iron and steel mills and ferroalloy manufacturing,31G,Manufacturing,331,88122.0,112953.0
+134,331200,Steel product manufacturing from purchased steel,31G,Manufacturing,331,22956.0,25893.0
+135,331313,Alumina refining and primary aluminum production,31G,Manufacturing,331,2794.0,6512.0
+136,331314,Secondary smelting and alloying of aluminum,31G,Manufacturing,331,5897.0,5781.0
+137,33131B,Aluminum product manufacturing from purchased aluminum,31G,Manufacturing,331,26964.0,25356.0
+138,331410,Nonferrous metal (except aluminum) smelting and refining,31G,Manufacturing,331,10255.0,14859.0
+139,331420,"Copper rolling, drawing, extruding and alloying",31G,Manufacturing,331,21942.0,23330.0
+140,331490,"Nonferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying",31G,Manufacturing,331,14055.0,22796.0
+141,331510,Ferrous metal foundries,31G,Manufacturing,331,17114.0,18902.0
+142,331520,Nonferrous metal foundries,31G,Manufacturing,331,12784.0,12833.0
+143,332114,Custom roll forming,31G,Manufacturing,332,6790.0,8343.0
+144,332119,"Metal crown, closure, and other metal stamping (except automotive)",31G,Manufacturing,332,11231.0,11912.0
+145,33211A,"All other forging, stamping, and sintering",31G,Manufacturing,332,12962.0,14316.0
+146,332200,Cutlery and handtool manufacturing,31G,Manufacturing,332,9468.0,9753.0
+147,332310,Plate work and fabricated structural product manufacturing,31G,Manufacturing,332,46778.0,40345.0
+148,332320,Ornamental and architectural metal products manufacturing,31G,Manufacturing,332,43517.0,36414.0
+149,332410,Power boiler and heat exchanger manufacturing,31G,Manufacturing,332,7148.0,7011.0
+150,332420,Metal tank (heavy gauge) manufacturing,31G,Manufacturing,332,8393.0,9406.0
+151,332430,"Metal can, box, and other metal container (light gauge) manufacturing",31G,Manufacturing,332,17959.0,18850.0
+152,332500,Hardware manufacturing,31G,Manufacturing,332,8651.0,7317.0
+153,332600,Spring and wire product manufacturing,31G,Manufacturing,332,9204.0,8445.0
+154,332710,Machine shops,31G,Manufacturing,332,37940.0,39903.0
+155,332720,"Turned product and screw, nut, and bolt manufacturing",31G,Manufacturing,332,29588.0,28025.0
+156,332800,"Coating, engraving, heat treating and allied activities",31G,Manufacturing,332,25933.0,27230.0
+157,332913,Plumbing fixture fitting and trim manufacturing,31G,Manufacturing,332,4858.0,3510.0
+158,33291A,Valve and fittings other than plumbing,31G,Manufacturing,332,26084.0,28413.0
+159,332991,Ball and roller bearing manufacturing,31G,Manufacturing,332,6201.0,7015.0
+160,332996,Fabricated pipe and pipe fitting manufacturing,31G,Manufacturing,332,6201.0,8174.0
+161,332999,Other fabricated metal manufacturing,31G,Manufacturing,332,13883.0,14558.0
+162,33299A,"Ammunition, arms, ordnance, and accessories manufacturing",31G,Manufacturing,332,13482.0,14130.0
+163,333111,Farm machinery and equipment manufacturing,31G,Manufacturing,333,25069.0,34783.0
+164,333112,Lawn and garden equipment manufacturing,31G,Manufacturing,333,7947.0,7723.0
+165,333120,Construction machinery manufacturing,31G,Manufacturing,333,32503.0,40268.0
+166,333130,Mining and oil and gas field machinery manufacturing,31G,Manufacturing,333,17591.0,32791.0
+167,333242,Semiconductor machinery manufacturing,31G,Manufacturing,333,8837.0,10321.0
+168,33329A,Other industrial machinery manufacturing,31G,Manufacturing,333,31458.0,22788.0
+169,333314,Optical instrument and lens manufacturing,31G,Manufacturing,333,4911.0,5445.0
+170,333318,Other commercial and service industry machinery manufacturing,31G,Manufacturing,333,19852.0,19205.0
+171,333413,Industrial and commercial fan and blower and air purification equipment manufacturing,31G,Manufacturing,333,6037.0,6121.0
+172,333414,Heating equipment (except warm air furnaces) manufacturing,31G,Manufacturing,333,4461.0,4959.0
+173,333415,"Air conditioning, refrigeration, and warm air heating equipment manufacturing",31G,Manufacturing,333,33270.0,30470.0
+174,333511,Industrial mold manufacturing,31G,Manufacturing,333,6597.0,6317.0
+175,333514,"Special tool, die, jig, and fixture manufacturing",31G,Manufacturing,333,9475.0,7505.0
+176,333517,Machine tool manufacturing,31G,Manufacturing,333,7893.0,8118.0
+177,33351B,"Cutting and machine tool accessory, rolling mill, and other metalworking machinery manufacturing",31G,Manufacturing,333,8995.0,8691.0
+178,333611,Turbine and turbine generator set units manufacturing,31G,Manufacturing,333,13001.0,17062.0
+179,333612,"Speed changer, industrial high-speed drive, and gear manufacturing",31G,Manufacturing,333,3176.0,4891.0
+180,333613,Mechanical power transmission equipment manufacturing,31G,Manufacturing,333,4977.0,4430.0
+181,333618,Other engine equipment manufacturing,31G,Manufacturing,333,25656.0,28240.0
+182,333912,Air and gas compressor manufacturing,31G,Manufacturing,333,9162.0,10113.0
+183,333914,"Measuring, dispensing, and other pumping equipment manufacturing",31G,Manufacturing,333,17531.0,16252.0
+184,333920,Material handling equipment manufacturing,31G,Manufacturing,333,30385.0,30448.0
+185,333991,Power-driven handtool manufacturing,31G,Manufacturing,333,3363.0,3875.0
+186,333993,Packaging machinery manufacturing,31G,Manufacturing,333,7011.0,5667.0
+187,333994,Industrial process furnace and oven manufacturing,31G,Manufacturing,333,2653.0,2741.0
+188,33399A,Other general purpose machinery manufacturing,31G,Manufacturing,333,23125.0,21472.0
+189,33399B,Fluid power process machinery,31G,Manufacturing,333,11673.0,11377.0
+190,334111,Electronic computer manufacturing,31G,Manufacturing,334,19051.0,12701.0
+191,334112,Computer storage device manufacturing,31G,Manufacturing,334,5298.0,9043.0
+192,334118,Computer terminals and other computer peripheral equipment manufacturing,31G,Manufacturing,334,8763.0,12992.0
+193,334210,Telephone apparatus manufacturing,31G,Manufacturing,334,7913.0,12376.0
+194,334220,Broadcast and wireless communications equipment,31G,Manufacturing,334,29741.0,35351.0
+195,334290,Other communications equipment manufacturing,31G,Manufacturing,334,5455.0,6632.0
+196,334300,Audio and video equipment manufacturing,31G,Manufacturing,334,3122.0,3022.0
+197,334413,Semiconductor and related device manufacturing,31G,Manufacturing,334,64245.0,57153.0
+198,334418,Printed circuit assembly (electronic assembly) manufacturing,31G,Manufacturing,334,20051.0,19558.0
+199,33441A,Other electronic component manufacturing,31G,Manufacturing,334,30100.0,30868.0
+200,334510,Electromedical and electrotherapeutic apparatus manufacturing,31G,Manufacturing,334,33528.0,28696.0
+201,334511,"Search, detection, and navigation instruments manufacturing",31G,Manufacturing,334,53883.0,51360.0
+202,334512,Automatic environmental control manufacturing,31G,Manufacturing,334,3199.0,2747.0
+203,334513,Industrial process variable instruments manufacturing,31G,Manufacturing,334,11476.0,12098.0
+204,334514,Totalizing fluid meter and counting device manufacturing,31G,Manufacturing,334,5914.0,6909.0
+205,334515,Electricity and signal testing instruments manufacturing,31G,Manufacturing,334,12046.0,13351.0
+206,334516,Analytical laboratory instrument manufacturing,31G,Manufacturing,334,15909.0,14606.0
+207,334517,Irradiation apparatus manufacturing,31G,Manufacturing,334,9531.0,9405.0
+208,33451A,"Watch, clock, and other measuring and controlling device manufacturing",31G,Manufacturing,334,13204.0,12377.0
+209,334610,Manufacturing and reproducing magnetic and optical media,31G,Manufacturing,334,1868.0,3006.0
+210,335120,Lighting fixture manufacturing,31G,Manufacturing,335,11973.0,10188.0
+211,335210,Small electrical appliance manufacturing,31G,Manufacturing,335,3605.0,3448.0
+212,335220,Major household appliance manufacturing,31G,Manufacturing,335,19059.0,16035.0
+213,335311,"Power, distribution, and specialty transformer manufacturing",31G,Manufacturing,335,5347.0,5898.0
+214,335312,Motor and generator manufacturing,31G,Manufacturing,335,10294.0,11448.0
+215,335313,Switchgear and switchboard apparatus manufacturing,31G,Manufacturing,335,12106.0,11045.0
+216,335314,Relay and industrial control manufacturing,31G,Manufacturing,335,10669.0,10022.0
+217,335911,Storage battery manufacturing,31G,Manufacturing,335,7508.0,6533.0
+218,335912,Primary battery manufacturing,31G,Manufacturing,335,2157.0,4548.0
+219,335920,Communication and energy wire and cable manufacturing,31G,Manufacturing,335,11417.0,15157.0
+220,335930,Wiring device manufacturing,31G,Manufacturing,335,14328.0,12888.0
+221,335991,Carbon and graphite product manufacturing,31G,Manufacturing,335,3443.0,3441.0
+222,335999,All other miscellaneous electrical equipment and component manufacturing,31G,Manufacturing,335,10835.0,10316.0
+223,336111,Automobile manufacturing,31G,Manufacturing,3361MV,40025.0,58588.0
+224,336112,Light truck and utility vehicle manufacturing,31G,Manufacturing,3361MV,212846.0,172420.0
+225,336120,Heavy duty truck manufacturing,31G,Manufacturing,3361MV,26195.0,31653.0
+226,336211,Motor vehicle body manufacturing,31G,Manufacturing,3361MV,14897.0,12053.0
+227,336212,Truck trailer manufacturing,31G,Manufacturing,3361MV,11044.0,8251.0
+228,336213,Motor home manufacturing,31G,Manufacturing,3361MV,5566.0,2344.0
+229,336214,Travel trailer and camper manufacturing,31G,Manufacturing,3361MV,17708.0,10561.0
+230,336310,Motor vehicle gasoline engine and engine parts manufacturing,31G,Manufacturing,3361MV,39896.0,30038.0
+231,336320,Motor vehicle electrical and electronic equipment manufacturing,31G,Manufacturing,3361MV,24048.0,19709.0
+232,336350,Motor vehicle transmission and power train parts manufacturing,31G,Manufacturing,3361MV,41980.0,35577.0
+233,336360,Motor vehicle seating and interior trim manufacturing,31G,Manufacturing,3361MV,31797.0,23104.0
+234,336370,Motor vehicle metal stamping,31G,Manufacturing,3361MV,37920.0,30286.0
+235,336390,Other motor vehicle parts manufacturing,31G,Manufacturing,3361MV,65769.0,58427.0
+236,3363A0,"Motor vehicle steering, suspension component (except spring), and brake systems manufacturing",31G,Manufacturing,3361MV,27477.0,23682.0
+237,336411,Aircraft manufacturing,31G,Manufacturing,3364OT,149600.0,117881.0
+238,336412,Aircraft engine and engine parts manufacturing,31G,Manufacturing,3364OT,46688.0,44020.0
+239,336413,Other aircraft parts and auxiliary equipment manufacturing,31G,Manufacturing,3364OT,37146.0,35907.0
+240,336414,Guided missile and space vehicle manufacturing,31G,Manufacturing,3364OT,19804.0,20952.0
+241,33641A,Propulsion units and parts for space vehicles and guided missiles,31G,Manufacturing,3364OT,9506.0,5875.0
+242,336500,Railroad rolling stock manufacturing,31G,Manufacturing,3364OT,12801.0,16650.0
+243,336611,Ship building and repairing,31G,Manufacturing,3364OT,25522.0,22695.0
+244,336612,Boat building,31G,Manufacturing,3364OT,10483.0,7244.0
+245,336991,"Motorcycle, bicycle, and parts manufacturing",31G,Manufacturing,3364OT,7579.0,6102.0
+246,336992,"Military armored vehicle, tank, and tank component manufacturing",31G,Manufacturing,3364OT,7661.0,6133.0
+247,336999,All other transportation equipment manufacturing,31G,Manufacturing,3364OT,8767.0,7358.0
+248,337110,Wood kitchen cabinet and countertop manufacturing,31G,Manufacturing,337,15059.0,11435.0
+249,337121,Upholstered household furniture manufacturing,31G,Manufacturing,337,12315.0,9812.0
+250,337122,Nonupholstered wood household furniture manufacturing,31G,Manufacturing,337,4088.0,4193.0
+251,337127,Institutional furniture manufacturing,31G,Manufacturing,337,4914.0,4648.0
+252,33712N,Other household nonupholstered furniture,31G,Manufacturing,337,3381.0,2876.0
+253,337215,"Showcase, partition, shelving, and locker manufacturing",31G,Manufacturing,337,7298.0,6695.0
+254,33721A,Office furniture and custom architectural woodwork and millwork manufacturing,31G,Manufacturing,337,19033.0,16344.0
+255,337900,Other furniture related product manufacturing,31G,Manufacturing,337,10192.0,9729.0
+256,339112,Surgical and medical instrument manufacturing,31G,Manufacturing,339,42970.0,39129.0
+257,339113,Surgical appliance and supplies manufacturing,31G,Manufacturing,339,35134.0,36532.0
+258,339114,Dental equipment and supplies manufacturing,31G,Manufacturing,339,4771.0,4789.0
+259,339115,Ophthalmic goods manufacturing,31G,Manufacturing,339,6480.0,8432.0
+260,339116,Dental laboratories,31G,Manufacturing,339,5673.0,5556.0
+261,339910,Jewelry and silverware manufacturing,31G,Manufacturing,339,7958.0,8002.0
+262,339920,Sporting and athletic goods manufacturing,31G,Manufacturing,339,10396.0,10197.0
+263,339930,"Doll, toy, and game manufacturing",31G,Manufacturing,339,2017.0,1810.0
+264,339940,Office supplies (except paper) manufacturing,31G,Manufacturing,339,2853.0,2771.0
+265,339950,Sign manufacturing,31G,Manufacturing,339,13728.0,11545.0
+266,339990,All other miscellaneous manufacturing,31G,Manufacturing,339,26872.0,27830.0
+267,4200ID,Customs duties,42,Wholesale trade,42,38513.0,33503.0
+268,423100,Motor vehicle and motor vehicle parts and supplies,42,Wholesale trade,42,137972.0,107686.0
+269,423400,Professional and commercial equipment and supplies,42,Wholesale trade,42,208553.0,199951.0
+270,423600,Household appliances and electrical and electronic goods,42,Wholesale trade,42,235738.0,145128.0
+271,423800,"Machinery, equipment, and supplies",42,Wholesale trade,42,181458.0,167140.0
+272,423A00,Other durable goods merchant wholesalers,42,Wholesale trade,42,286643.0,231172.0
+273,424200,Drugs and druggists' sundries,42,Wholesale trade,42,214737.0,130994.0
+274,424400,Grocery and related product wholesalers,42,Wholesale trade,42,175663.0,129167.0
+275,424700,Petroleum and petroleum products,42,Wholesale trade,42,150223.0,156907.0
+276,424A00,Other nondurable goods merchant wholesalers,42,Wholesale trade,42,372463.0,290980.0
+277,425000,Wholesale electronic markets and agents and brokers,42,Wholesale trade,42,51909.0,62398.0
+278,441000,Motor vehicle and parts dealers,44RT,Retail trade,441,355734.0,221875.0
+279,444000,Building material and garden equipment and supplies dealers,44RT,Retail trade,4A0,143185.0,115683.0
+280,445000,Food and beverage stores,44RT,Retail trade,445,249237.0,207680.0
+281,446000,Health and personal care stores,44RT,Retail trade,4A0,109930.0,87888.0
+282,447000,Gasoline stations,44RT,Retail trade,4A0,106625.0,84136.0
+283,448000,Clothing and clothing accessories stores,44RT,Retail trade,4A0,141036.0,126495.0
+284,452000,General merchandise stores,44RT,Retail trade,452,233935.0,210838.0
+285,454000,Nonstore retailers,44RT,Retail trade,4A0,297035.0,166993.0
+286,481000,Air transportation,48TW,Transportation and warehousing,481,236301.0,195415.0
+287,482000,Rail transportation,48TW,Transportation and warehousing,482,79568.0,79141.0
+288,483000,Water transportation,48TW,Transportation and warehousing,483,54978.0,50023.0
+289,484000,Truck transportation,48TW,Transportation and warehousing,484,367155.0,297774.0
+290,485000,Transit and ground passenger transportation,48TW,Transportation and warehousing,485,78300.0,50991.0
+291,486000,Pipeline transportation,48TW,Transportation and warehousing,486,48071.0,36442.0
+292,48A000,Scenic and sightseeing transportation and support activities,48TW,Transportation and warehousing,487OS,141645.0,113156.0
+293,491000,Postal service,G,Government,GFE,69731.0,61891.0
+294,492000,Couriers and messengers,48TW,Transportation and warehousing,487OS,97061.0,74077.0
+295,493000,Warehousing and storage,48TW,Transportation and warehousing,493,123834.0,108889.0
+296,4B0000,All other retail,44RT,Retail trade,4A0,210224.0,182126.0
+297,511110,Newspaper publishers,51,Information,511,26105.0,30396.0
+298,511120,Periodical Publishers,51,Information,511,27679.0,30233.0
+299,511130,Book publishers,51,Information,511,38579.0,36120.0
+300,5111A0,"Directory, mailing list, and other publishers",51,Information,511,10862.0,16258.0
+301,511200,Software publishers,51,Information,511,282066.0,183230.0
+302,512100,Motion picture and video industries,51,Information,512,132384.0,117056.0
+303,512200,Sound recording industries,51,Information,512,18351.0,14643.0
+304,515100,Radio and television broadcasting,51,Information,513,94812.0,75081.0
+305,515200,Cable and other subscription programming,51,Information,513,108804.0,78802.0
+306,517110,Wired telecommunications carriers,51,Information,513,347844.0,310707.0
+307,517210,Wireless telecommunications carriers (except satellite),51,Information,513,261541.0,230497.0
+308,517A00,"Satellite, telecommunications resellers, and all other telecommunications",51,Information,513,49042.0,38039.0
+309,518200,"Data processing, hosting, and related services",51,Information,514,176239.0,121947.0
+310,519130,Internet publishing and broadcasting and Web search portals,51,Information,514,180540.0,92222.0
+311,5191A0,"News syndicates, libraries, archives and all other information services",51,Information,514,8456.0,7371.0
+312,522A00,Nondepository credit intermediation and related activities,FIRE,"Finance, insurance, real estate, rental, and leasing",521CI,401363.0,300171.0
+313,523900,Other financial investment activities,FIRE,"Finance, insurance, real estate, rental, and leasing",523,350232.0,278382.0
+314,523A00,Securities and commodity contracts intermediation and brokerage,FIRE,"Finance, insurance, real estate, rental, and leasing",523,199084.0,200088.0
+315,524113,Direct life insurance carriers,FIRE,"Finance, insurance, real estate, rental, and leasing",524,91851.0,82072.0
+316,5241XX,"Insurance carriers, except direct life",FIRE,"Finance, insurance, real estate, rental, and leasing",524,588378.0,430388.0
+317,524200,"Insurance agencies, brokerages, and related activities",FIRE,"Finance, insurance, real estate, rental, and leasing",524,362909.0,286130.0
+318,525000,"Funds, trusts, and other financial vehicles",FIRE,"Finance, insurance, real estate, rental, and leasing",525,157361.0,117259.0
+319,52A000,Monetary authorities and depository credit intermediation,FIRE,"Finance, insurance, real estate, rental, and leasing",521CI,656556.0,461448.0
+320,531HSO,Owner-occupied housing,FIRE,"Finance, insurance, real estate, rental, and leasing",HS,1553242.0,1320813.0
+321,531HST,Tenant-occupied housing,FIRE,"Finance, insurance, real estate, rental, and leasing",HS,480395.0,405849.0
+322,531ORE,Other real estate,FIRE,"Finance, insurance, real estate, rental, and leasing",ORE,1265027.0,889092.0
+323,532100,Automotive equipment rental and leasing,FIRE,"Finance, insurance, real estate, rental, and leasing",532RL,68744.0,53867.0
+324,532400,Commercial and industrial machinery and equipment rental and leasing,FIRE,"Finance, insurance, real estate, rental, and leasing",532RL,93317.0,61865.0
+325,532A00,General and consumer goods rental,FIRE,"Finance, insurance, real estate, rental, and leasing",532RL,29459.0,26903.0
+326,533000,Lessors of nonfinancial intangible assets,FIRE,"Finance, insurance, real estate, rental, and leasing",532RL,157205.0,155979.0
+327,541100,Legal services,PROF,Professional and business services,5411,354713.0,306935.0
+328,541200,"Accounting, tax preparation, bookkeeping, and payroll services",PROF,Professional and business services,5412OP,171519.0,162282.0
+329,541300,"Architectural, engineering, and related services",PROF,Professional and business services,5412OP,330572.0,281135.0
+330,541400,Specialized design services,PROF,Professional and business services,5412OP,36166.0,26794.0
+331,541511,Custom computer programming services,PROF,Professional and business services,5415,154046.0,135830.0
+332,541512,Computer systems design services,PROF,Professional and business services,5415,272381.0,158097.0
+333,54151A,"Other computer related services, including facilities management",PROF,Professional and business services,5415,49604.0,60296.0
+334,541610,Management consulting services,PROF,Professional and business services,5412OP,252630.0,199054.0
+335,5416A0,Environmental and other technical consulting services,PROF,Professional and business services,5412OP,53429.0,44115.0
+336,541700,Scientific research and development services,PROF,Professional and business services,5412OP,255406.0,177430.0
+337,541800,"Advertising, public relations, and related services",PROF,Professional and business services,5412OP,129678.0,112879.0
+338,541920,Photographic services,PROF,Professional and business services,5412OP,12933.0,10861.0
+339,541940,Veterinary services,PROF,Professional and business services,5412OP,42612.0,29402.0
+340,5419A0,"All other miscellaneous professional, scientific, and technical services",PROF,Professional and business services,5412OP,88352.0,79912.0
+341,550000,Management of companies and enterprises,PROF,Professional and business services,55,568623.0,478846.0
+342,561100,Office administrative services,PROF,Professional and business services,561,65095.0,48316.0
+343,561200,Facilities support services,PROF,Professional and business services,561,29656.0,26450.0
+344,561300,Employment services,PROF,Professional and business services,561,386619.0,247704.0
+345,561400,Business support services,PROF,Professional and business services,561,80332.0,67760.0
+346,561500,Travel arrangement and reservation services,PROF,Professional and business services,561,59101.0,37726.0
+347,561600,Investigation and security services,PROF,Professional and business services,561,67171.0,50645.0
+348,561700,Services to buildings and dwellings,PROF,Professional and business services,561,195967.0,141439.0
+349,561900,Other support services,PROF,Professional and business services,561,55634.0,41524.0
+350,562000,Waste management and remediation services,PROF,Professional and business services,562,115617.0,83564.0
+351,611100,Elementary and secondary schools,6,"Educational services, health care, and social assistance",61,48102.0,36044.0
+352,611A00,"Junior colleges, colleges, universities, and professional schools",6,"Educational services, health care, and social assistance",61,234379.0,209906.0
+353,611B00,Other educational services,6,"Educational services, health care, and social assistance",61,74987.0,63663.0
+354,621100,Offices of physicians,6,"Educational services, health care, and social assistance",621,494669.0,419120.0
+355,621200,Offices of dentists,6,"Educational services, health care, and social assistance",621,129731.0,107519.0
+356,621300,Offices of other health practitioners,6,"Educational services, health care, and social assistance",621,104474.0,87043.0
+357,621400,Outpatient care centers,6,"Educational services, health care, and social assistance",621,163330.0,100374.0
+358,621500,Medical and diagnostic laboratories,6,"Educational services, health care, and social assistance",621,55076.0,52296.0
+359,621600,Home health care services,6,"Educational services, health care, and social assistance",621,90247.0,70128.0
+360,621900,Other ambulatory health care services,6,"Educational services, health care, and social assistance",621,34811.0,32778.0
+361,622000,Hospitals,6,"Educational services, health care, and social assistance",622,846173.0,709379.0
+362,623A00,Nursing and community care facilities,6,"Educational services, health care, and social assistance",623,188718.0,167804.0
+363,623B00,"Residential mental health, substance abuse, and other residential care facilities",6,"Educational services, health care, and social assistance",623,55166.0,41175.0
+364,624100,Individual and family services,6,"Educational services, health care, and social assistance",624,118209.0,84531.0
+365,624400,Child day care services,6,"Educational services, health care, and social assistance",624,53045.0,43037.0
+366,624A00,"Community food, housing, and other relief services, including vocational rehabilitation services",6,"Educational services, health care, and social assistance",624,53205.0,42111.0
+367,711100,Performing arts companies,7,"Arts, entertainment, recreation, accommodation, and food services",711AS,27903.0,20955.0
+368,711200,Spectator sports,7,"Arts, entertainment, recreation, accommodation, and food services",711AS,50860.0,38196.0
+369,711500,"Independent artists, writers, and performers",7,"Arts, entertainment, recreation, accommodation, and food services",711AS,46452.0,36254.0
+370,711A00,Promoters of performing arts and sports and agents for public figures,7,"Arts, entertainment, recreation, accommodation, and food services",711AS,52782.0,35194.0
+371,712000,"Museums, historical sites, zoos, and parks",7,"Arts, entertainment, recreation, accommodation, and food services",711AS,20998.0,14166.0
+372,713100,Amusement parks and arcades,7,"Arts, entertainment, recreation, accommodation, and food services",713,23970.0,16040.0
+373,713200,Gambling industries (except casino hotels),7,"Arts, entertainment, recreation, accommodation, and food services",713,36796.0,31213.0
+374,713900,Other amusement and recreation industries,7,"Arts, entertainment, recreation, accommodation, and food services",713,92735.0,72584.0
+375,721000,Accommodation,7,"Arts, entertainment, recreation, accommodation, and food services",721,282915.0,214977.0
+376,722110,Full-service restaurants,7,"Arts, entertainment, recreation, accommodation, and food services",722,371751.0,278512.0
+377,722211,Limited-service restaurants,7,"Arts, entertainment, recreation, accommodation, and food services",722,340769.0,253789.0
+378,722A00,All other food and drinking places,7,"Arts, entertainment, recreation, accommodation, and food services",722,105009.0,81680.0
+379,811100,Automotive repair and maintenance (including car washes),81,"Other services, except government",81,137772.0,111309.0
+380,811200,Electronic and precision equipment repair and maintenance,81,"Other services, except government",81,21464.0,20869.0
+381,811300,Commercial and industrial machinery and equipment repair and maintenance,81,"Other services, except government",81,43093.0,34320.0
+382,811400,Personal and household goods repair and maintenance,81,"Other services, except government",81,24941.0,19400.0
+383,812100,Personal care services,81,"Other services, except government",81,80982.0,68378.0
+384,812200,Death care services,81,"Other services, except government",81,23698.0,19713.0
+385,812300,Dry-cleaning and laundry services,81,"Other services, except government",81,29391.0,26030.0
+386,812900,Other personal services,81,"Other services, except government",81,68718.0,53508.0
+387,813100,Religious organizations,81,"Other services, except government",81,100432.0,82664.0
+388,813A00,"Grantmaking, giving, and social advocacy organizations",81,"Other services, except government",81,59660.0,44419.0
+389,813B00,"Civic, social, professional, and similar organizations",81,"Other services, except government",81,100044.0,78083.0
+390,814000,Private households,81,"Other services, except government",81,18684.0,17330.0
+391,GSLGE,State and local government (educational services),G,Government,GSLG,1019983.0,897146.0
+392,GSLGH,State and local government (hospitals and health services),G,Government,GSLG,312936.0,237636.0
+393,GSLGO,State and local government (other services),G,Government,GSLG,935968.0,812277.0
+394,S00101,Federal electric utilities,G,Government,GFE,15872.0,13695.0
+395,S00102,Other federal government enterprises,G,Government,GFE,9205.0,23327.0
+396,S00201,State and local government passenger transit,G,Government,GSLE,16928.0,14737.0
+397,S00202,State and local government electric utilities,G,Government,GSLE,63412.0,59671.0
+398,S00203,Other state and local government enterprises,G,Government,GSLE,273910.0,224162.0
+399,S00500,Federal general government (defense),G,Government,GFGD,624289.0,676301.0
+400,S00600,Federal general government (nondefense),G,Government,GFGN,405353.0,370378.0

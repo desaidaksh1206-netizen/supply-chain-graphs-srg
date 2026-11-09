@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplygraphs"
+version = "1.0.0"
+description = "US supply-chain (input-output) networks measured against strong regularity, with supply chains as weighted walks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.11",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "networkx>=3.2",
+]
+
+[project.optional-dependencies]
+raw = ["pyreadr>=0.5"]
+dev = ["pytest>=7.4", "pyreadr>=0.5", "jupyter>=1.0", "nbconvert>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

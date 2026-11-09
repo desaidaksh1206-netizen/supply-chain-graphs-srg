@@ -1,0 +1,10 @@
+# Minimum versions. The results in this repository were produced with
+# numpy 2.5.3, scipy 1.18.1, pandas 3.0.5, matplotlib 3.11.2, networkx 3.6.1,
+# pyreadr 0.5 on Python 3.13.
+numpy>=2.0
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+networkx>=3.2
+pyreadr>=0.5
+pytest>=7.4

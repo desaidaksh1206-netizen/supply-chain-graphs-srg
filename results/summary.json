@@ -1,0 +1,454 @@
+{
+  "data": {
+    "negative_uses_detail_2012": {
+      "count": 8,
+      "total_musd": 1161.0
+    },
+    "negative_uses_detail_2017": {
+      "count": 7,
+      "total_musd": 697.0
+    },
+    "detail_2012": {
+      "n_industries_source": 402,
+      "max_column_sum": 1.7996200040713852,
+      "mean_column_sum": 0.5288634346341996,
+      "dropped_input_share_max": 0.045634631989068,
+      "total_output_busd": 29232.115
+    },
+    "detail_2017": {
+      "n_industries_source": 402,
+      "max_column_sum": 1.594813327032136,
+      "mean_column_sum": 0.5145967011762652,
+      "dropped_input_share_max": 0.036319742901572305,
+      "total_output_busd": 34468.047
+    },
+    "summary_2012": {
+      "n_industries": 71,
+      "max_column_sum": 0.9144713838596613,
+      "negative_uses_count": 7
+    },
+    "summary_2013": {
+      "n_industries": 71,
+      "max_column_sum": 0.9389123862730595,
+      "negative_uses_count": 7
+    },
+    "summary_2014": {
+      "n_industries": 71,
+      "max_column_sum": 0.9203450754852622,
+      "negative_uses_count": 7
+    },
+    "summary_2015": {
+      "n_industries": 71,
+      "max_column_sum": 0.9494531051273665,
+      "negative_uses_count": 7
+    },
+    "summary_2016": {
+      "n_industries": 71,
+      "max_column_sum": 0.9530038330655669,
+      "negative_uses_count": 7
+    },
+    "summary_2017": {
+      "n_industries": 71,
+      "max_column_sum": 0.9565711961667759,
+      "negative_uses_count": 5
+    },
+    "summary_2018": {
+      "n_industries": 71,
+      "max_column_sum": 0.9935042299596444,
+      "negative_uses_count": 5
+    },
+    "summary_2019": {
+      "n_industries": 71,
+      "max_column_sum": 0.9880925726149523,
+      "negative_uses_count": 6
+    },
+    "summary_2020": {
+      "n_industries": 71,
+      "max_column_sum": 0.9929595107630836,
+      "negative_uses_count": 6
+    },
+    "summary_2021": {
+      "n_industries": 71,
+      "max_column_sum": 0.8811016953843258,
+      "negative_uses_count": 6
+    },
+    "summary_2022": {
+      "n_industries": 71,
+      "max_column_sum": 0.8960439652640854,
+      "negative_uses_count": 6
+    },
+    "summary_2023": {
+      "n_industries": 71,
+      "max_column_sum": 0.9086782596875518,
+      "negative_uses_count": 6
+    },
+    "n_industries": 400,
+    "dropped": [
+      "333316",
+      "335110"
+    ],
+    "detail_years": [
+      2012,
+      2017
+    ],
+    "summary_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "useeior_commit": "1565a70b7da2e50ff7ab5fc344fc0ba95f307a8a"
+  },
+  "n": 400,
+  "leontief": {
+    "rho": 0.48863126954015174,
+    "rho_2012": 0.5125926277924165,
+    "apl": 2.0386234234797236,
+    "apl_2012": 2.1303508875565895,
+    "shares": [
+      0.4828179380125188,
+      0.25497323803762445,
+      0.13097523022027693,
+      0.06616946276548795,
+      0.032997606128122935,
+      0.016317220819214294,
+      0.008029343970488571,
+      0.003940107601020107,
+      0.0019304103494341316,
+      0.0009449085363700056,
+      0.0004622598465665904,
+      0.00022606231551275147
+    ],
+    "shares_2012": [
+      0.4618150225478653,
+      0.25357513395174325,
+      0.13580183442834665
+    ],
+    "share_beyond_3": 0.13123359372957988,
+    "max_column_sum": 1.594807386088167,
+    "max_column_sum_industry": "State and local government passenger transit",
+    "n_column_sum_above_1": 1,
+    "mean_column_sum": 0.5146471459432874,
+    "neumann_max_error": {
+      "5": 0.0071605447152757185,
+      "10": 0.0001947523437593121,
+      "20": 1.5241529390322417e-07
+    },
+    "multiplier_min": 1.0,
+    "multiplier_max": 4.256097798114042,
+    "multiplier_mean": 2.065923830547372,
+    "top_multipliers": [
+      {
+        "name": "State and local government passenger transit",
+        "output_multiplier": 4.256097798114042
+      },
+      {
+        "name": "Poultry and egg production",
+        "output_multiplier": 3.2170397683782346
+      },
+      {
+        "name": "Cheese manufacturing",
+        "output_multiplier": 3.188446870767927
+      },
+      {
+        "name": "Fats and oils refining and blending",
+        "output_multiplier": 3.131322983495817
+      },
+      {
+        "name": "Poultry processing",
+        "output_multiplier": 3.125693940253702
+      }
+    ],
+    "top_forward": [
+      {
+        "name": "Other real estate",
+        "forward_linkage": 18.382748300805652
+      },
+      {
+        "name": "Management of companies and enterprises",
+        "forward_linkage": 15.779072020744422
+      },
+      {
+        "name": "Other durable goods merchant wholesalers",
+        "forward_linkage": 10.88363921219559
+      },
+      {
+        "name": "Other nondurable goods merchant wholesalers",
+        "forward_linkage": 10.27840011707873
+      },
+      {
+        "name": "Iron and steel mills and ferroalloy manufacturing",
+        "forward_linkage": 10.093135312574484
+      }
+    ],
+    "top_perron": [
+      {
+        "name": "Copper rolling, drawing, extruding and alloying",
+        "perron_left": 0.009783394517253505
+      },
+      {
+        "name": "Poultry processing",
+        "perron_left": 0.00950270343359777
+      },
+      {
+        "name": "Animal (except poultry) slaughtering, rendering, and processing",
+        "perron_left": 0.008787992280943973
+      },
+      {
+        "name": "Cheese manufacturing",
+        "perron_left": 0.008453266581851164
+      },
+      {
+        "name": "Poultry and egg production",
+        "perron_left": 0.006994420338136778
+      }
+    ]
+  },
+  "theta_star": 0.004690910464,
+  "at_theta_star": {
+    "theta": 0.004690910464,
+    "m": 7600,
+    "density": 0.09523809523809523,
+    "mean_degree": 38.0,
+    "sd_degree": 37.583640057876245,
+    "max_degree": 323,
+    "n_isolated": 2,
+    "n_components": 3,
+    "largest_component": 398,
+    "clique_number": 14,
+    "lambda1": 62.21894125825774,
+    "lambda2": 29.58056717169421,
+    "spectral_gap": 32.63837408656353,
+    "lambda_min": -28.231781328816965,
+    "n_distinct_eigenvalues": 399,
+    "m_bar": 72200,
+    "k_fit": 38.0,
+    "lambda_fit": 17.171447368421052,
+    "mu_fit": 6.000041551246538,
+    "gap": 11.171405817174515,
+    "sd_lambda": 15.217716493401554,
+    "sd_mu": 4.840710611330761,
+    "term_degree": 565012.0,
+    "term_edge": 3519999.2081578947,
+    "term_nonedge": 3383649.999750693,
+    "residual_sq": 7468661.2079085875,
+    "delta": 0.6490958810636914,
+    "frac_degree": 0.07565104163537464,
+    "frac_edge": 0.4713025681805672,
+    "frac_nonedge": 0.4530463901840581,
+    "er_delta": 0.4249730002687764,
+    "er_delta_lo": 0.418183583849845,
+    "er_delta_hi": 0.4332516575002523,
+    "er_gap": 0.0015759447676279548,
+    "er_gap_lo": -0.08106257960745941,
+    "er_gap_hi": 0.06640335993004652,
+    "dp_delta": 0.6621353258055218,
+    "dp_delta_lo": 0.6601730790513778,
+    "dp_delta_hi": 0.6651501519672193,
+    "dp_gap": 9.514942105263156,
+    "dp_gap_lo": 9.324729224376732,
+    "dp_gap_hi": 9.766012811634349
+  },
+  "at_theta_star_2012": {
+    "theta": 0.004753857989,
+    "m": 7600,
+    "density": 0.09523809523809523,
+    "mean_degree": 38.0,
+    "sd_degree": 36.46052660069517,
+    "max_degree": 325,
+    "n_isolated": 2,
+    "n_components": 3,
+    "largest_component": 398,
+    "clique_number": 13,
+    "lambda1": 61.07923040635744,
+    "lambda2": 29.95499047754583,
+    "spectral_gap": 31.12423992881161,
+    "lambda_min": -27.63966435897454,
+    "n_distinct_eigenvalues": 398,
+    "m_bar": 72200,
+    "k_fit": 38.0,
+    "lambda_fit": 16.564736842105262,
+    "mu_fit": 5.833545706371191,
+    "gap": 10.731191135734072,
+    "sd_lambda": 13.911289193888937,
+    "sd_mu": 4.949299108580273,
+    "term_degree": 531748.0,
+    "term_edge": 2941564.2989473687,
+    "term_nonedge": 3537159.1045983383,
+    "residual_sq": 7010471.403545707,
+    "delta": 0.6484397853358552,
+    "frac_degree": 0.07585053406409392,
+    "frac_edge": 0.41959579172658845,
+    "frac_nonedge": 0.5045536742093176,
+    "er_delta": 0.4240619330354089,
+    "er_delta_lo": 0.41719274542542994,
+    "er_delta_hi": 0.43153811305631584,
+    "er_gap": 7.262031324883455e-05,
+    "er_gap_lo": -0.08343279992589525,
+    "er_gap_hi": 0.07605268668715073,
+    "dp_delta": 0.6654532189290465,
+    "dp_delta_lo": 0.6627057704171133,
+    "dp_delta_hi": 0.6692605332174717,
+    "dp_gap": 9.180152077562326,
+    "dp_gap_lo": 8.960854051246537,
+    "dp_gap_hi": 9.460676592797784
+  },
+  "er_sample_at_theta_star": {
+    "m": 7525,
+    "density": 0.09429824561403509,
+    "mean_degree": 37.625,
+    "sd_degree": 5.288608039928843,
+    "max_degree": 54,
+    "n_isolated": 0,
+    "n_components": 1,
+    "largest_component": 400,
+    "clique_number": 5,
+    "lambda1": 38.38609108981237,
+    "lambda2": 11.281578937505444,
+    "spectral_gap": 27.104512152306924,
+    "lambda_min": -11.730117348290978,
+    "n_distinct_eigenvalues": 400
+  },
+  "sector_at_theta_star": {
+    "frac_edges_within": 0.36855263157894735,
+    "frac_pairs_within": 0.343734335839599,
+    "lambda_within": 16.014637629418065,
+    "lambda_across": 17.84663471556574,
+    "mu_within": 7.393154411466158,
+    "mu_across": 5.278783292341973,
+    "n_edges_within": 2801,
+    "n_edges_across": 4799
+  },
+  "summary_group_at_theta_star": {
+    "frac_edges_within": 0.08289473684210526,
+    "frac_pairs_within": 0.028295739348370926,
+    "lambda_within": 17.07777777777778,
+    "lambda_across": 17.179913916786226,
+    "mu_within": 11.36916461916462,
+    "mu_across": 5.87618318880009,
+    "n_edges_within": 630,
+    "n_edges_across": 6970
+  },
+  "hubs": [
+    {
+      "name": "Management of companies and enterprises",
+      "sector": "Professional and business services",
+      "degree": 323
+    },
+    {
+      "name": "Truck transportation",
+      "sector": "Transportation and warehousing",
+      "degree": 289
+    },
+    {
+      "name": "Other real estate",
+      "sector": "Finance, insurance, real estate, rental, and leasing",
+      "degree": 279
+    },
+    {
+      "name": "Electric power generation, transmission, and distribution",
+      "sector": "Utilities",
+      "degree": 239
+    },
+    {
+      "name": "Other durable goods merchant wholesalers",
+      "sector": "Wholesale trade",
+      "degree": 217
+    },
+    {
+      "name": "Monetary authorities and depository credit intermediation",
+      "sector": "Finance, insurance, real estate, rental, and leasing",
+      "degree": 202
+    },
+    {
+      "name": "Other nondurable goods merchant wholesalers",
+      "sector": "Wholesale trade",
+      "degree": 178
+    },
+    {
+      "name": "Employment services",
+      "sector": "Professional and business services",
+      "degree": 170
+    },
+    {
+      "name": "Machinery, equipment, and supplies",
+      "sector": "Wholesale trade",
+      "degree": 156
+    },
+    {
+      "name": "Legal services",
+      "sector": "Professional and business services",
+      "degree": 150
+    }
+  ],
+  "isolated": [
+    "Customs duties",
+    "Private households"
+  ],
+  "frac_edges_touching_top10": 0.28460526315789475,
+  "ranges": {
+    "gap_above_dp_band": [
+      [
+        0.0001,
+        0.1
+      ]
+    ],
+    "gap_above_er_band": [
+      [
+        0.0001,
+        0.1
+      ]
+    ],
+    "delta_above_er_band": [
+      [
+        0.0001,
+        0.1
+      ]
+    ],
+    "delta_below_dp_band": [
+      [
+        0.0001,
+        0.08659643
+      ]
+    ]
+  },
+  "years": {
+    "gap_above_dp_all": true,
+    "gap_above_er_all": true,
+    "delta_between_all": true,
+    "n_gap_above_dp": 12,
+    "n_delta_between": 12,
+    "rho_min": 0.4711488371165019,
+    "rho_max": 0.5078703152316629,
+    "rho_min_year": 2020,
+    "rho_max_year": 2013,
+    "apl_min": 1.894320974657816,
+    "apl_max": 2.0247782131775547,
+    "gap_min": 1.4414556962025316,
+    "gap_max": 1.8273908734627684,
+    "delta_min": 0.6982299120469359,
+    "delta_max": 0.7137828024280364,
+    "n_summary": 71,
+    "years": [
+      2012,
+      2023
+    ]
+  },
+  "seed": 20261027,
+  "n_er": 200,
+  "n_dp": 20,
+  "n_dp_star": 50,
+  "thetas": [
+    0.0001,
+    0.1,
+    49
+  ]
+}
